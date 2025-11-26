@@ -1,6 +1,6 @@
 {
   "name": "xnil-ypb-fca",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "module": "commonjs",
   "types": "src/types/index.d.ts",
   "description": "Advanced Facebook Chat API (FCA) for Node.js - Bug-fixed fork with memory leak fixes, proper reconnection handling, and production-ready stability",
