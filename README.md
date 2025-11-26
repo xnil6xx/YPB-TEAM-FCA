@@ -1,9 +1,11 @@
 # xnil-ypb-fca
 
 [![npm version](https://img.shields.io/npm/v/xnil-ypb-fca.svg)](https://www.npmjs.com/package/xnil-ypb-fca)
-[![npm downloads](https://img.shields.io/npm/dm/xnil-ypb-fca.svg)]([https://www.npmjs.com/package/xnil-ypb-fca](https://www.npmjs.com/package/xnil-ypb-fca))
+[![npm downloads](https://img.shields.io/npm/dm/xnil-ypb-fca.svg)](https://www.npmjs.com/package/xnil-ypb-fca)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/node/v/xnil-ypb-fca.svg)](https://nodejs.org)
+
+> npm: https://www.npmjs.com/package/xnil-ypb-fca
 
 **xnil-ypb-fca** is a Facebook Chat API (FCA) library for Node.js that allows you to automate and interact with Facebook Messenger programmatically. This library provides a complete interface to send/receive messages, manage conversations, handle events, and build chat bots without using Facebook's official API.
 
