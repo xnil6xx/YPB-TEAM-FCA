@@ -1,0 +1,95 @@
+{
+  "name": "xnil-ypb-fca",
+  "version": "1.0.0",
+  "module": "commonjs",
+  "types": "src/types/index.d.ts",
+  "description": "Advanced Facebook Chat API (FCA) for Node.js - Bug-fixed fork with memory leak fixes, proper reconnection handling, and production-ready stability",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "examples/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "THEME_FEATURES.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xnil6x404/YPB-TEAM-FCA.git"
+  },
+  "author": "xnil6x",
+  "contributors": ["YPB Team XNIL6X (original authors)"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xnil6x404/YPB-TEAM-FCA/issues"
+  },
+  "homepage": "https://github.com/xnil6x404/YPB-TEAM-FCA#readme",
+  "keywords": [
+    "facebook",
+    "chat",
+    "api",
+    "fca",
+    "xnil-ypb-fca",
+    "ypb-fca",
+    "messenger",
+    "bot",
+    "automation",
+    "facebook-messenger",
+    "facebook-chat",
+    "messenger-bot",
+    "ai-theme",
+    "mqtt",
+    "realtime",
+    "websocket",
+    "facebook-api",
+    "chat-bot",
+    "messaging",
+    "bug-fix",
+    "production-ready",
+    "stable"
+  ],
+  "dependencies": {
+    "axios": "^1.13.2",
+    "axios-cookiejar-support": "^6.0.4",
+    "bluebird": "^3.7.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.2",
+    "deepdash": "^5.3.9",
+    "form-data": "^4.0.4",
+    "gradient-string": "^1.2.0",
+    "https-proxy-agent": "^7.0.6",
+    "jsonpath-plus": "^10.3.0",
+    "lodash": "^4.17.21",
+    "mqtt": "^3.0.0",
+    "npmlog": "^7.0.1",
+    "tough-cookie": "^6.0.0",
+    "uuid": "^11.0.3",
+    "websocket-stream": "^5.3.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/form-data": "^2.2.1",
+    "@types/node": "^22.19.0",
+    "@types/tough-cookie": "^4.0.5",
+    "eslint": "^9.39.1",
+    "mocha": "^11.7.5",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "validate": "npm pack --dry-run",
+    "prepack": "echo 'Preparing package for npm...'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "overrides": {
+    "websocket-stream": {
+      "ws": "^8.18.3"
+    }
+  }
+}
